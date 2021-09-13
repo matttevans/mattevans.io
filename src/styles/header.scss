@@ -32,7 +32,6 @@
       text-align: center;
       @include media(">=phone", "<lgphone") {
         font-size: 1.5rem;
-        line-height: 10px;
       }
       @include media(">=lgphone", "<tablet") {
         font-size: 1.5rem;
