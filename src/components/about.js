@@ -23,7 +23,7 @@ const About = () => {
             <Fade bottom cascade>
               <h1>Hobbies</h1>
             </Fade>
-            <div className="social-icons">
+            <div className="hobby-icons">
               {data.hobbies.map((hobby, index) => (
                     <img src={hobby.img} alt="icons"></img>
               ))}
