@@ -20,6 +20,14 @@ const About = () => {
               <br></br>
               {data.aboutParaThree}
             </p>
+            <Fade bottom cascade>
+              <h1>Hobbies</h1>
+            </Fade>
+            <div className="social-icons">
+              {data.hobbies.map((hobby, index) => (
+                    <img src={hobby.img} alt="icons"></img>
+              ))}
+            </div>
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>

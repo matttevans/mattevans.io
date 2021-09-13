@@ -8,6 +8,10 @@ import codeIcon from "./images/code.svg"
 import databaseIcon from "./images/database.svg"
 import laravelIcon from "./images/laravel.svg"
 import uiuxIcon from "./images/uiux.svg"
+import camping from "./images/camping.svg"
+import weightlifting from "./images/weightlifting.svg"
+import golf from "./images/golf.svg"
+import videogames from "./images/videogames.svg"
 import headstrong from "./images/headstrong.png"
 import athleteacademy from "./images/athleteacademy.png"
 import seabreeze from "./images/seabreeze.png"
@@ -90,6 +94,21 @@ export default {
     "I am deeply familiar with SEO, Jira, Confluence, CI/CD, Git, MySQL, Cloudflare, and Unix-based operating systems.",
   aboutImage: matt,
 
+  hobbies: [
+    // Add Or Remove The Link Accordingly
+    {
+      img: golf,
+    },
+    {
+      img: weightlifting,
+    },
+    {
+      img: camping,
+    },
+    {
+      img: videogames,
+    },
+  ],
   //   End About Section ---------------------
 
   // Skills Section ---------------
