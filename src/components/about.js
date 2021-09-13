@@ -19,6 +19,9 @@ const About = () => {
               <br></br>
               <br></br>
               {data.aboutParaThree}
+              <br></br>
+              <br></br>
+              {data.aboutParaFour}
             </p>
             <Fade bottom cascade>
               <h1>Hobbies</h1>
