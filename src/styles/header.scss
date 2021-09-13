@@ -24,9 +24,12 @@
   }
   .heading-wrapper {
     h1 {
+      background: linear-gradient(90deg, #8A2BE2, #ff4500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
       font-size: 4rem;
       text-align: center;
-      line-height: 20px;
       @include media(">=phone", "<lgphone") {
         font-size: 1.5rem;
         line-height: 10px;
