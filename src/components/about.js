@@ -19,7 +19,18 @@ const About = () => {
               <br></br>
               <br></br>
               {data.aboutParaThree}
+              <br></br>
+              <br></br>
+              {data.aboutParaFour}
             </p>
+            <Fade bottom cascade>
+              <h1>Hobbies</h1>
+            </Fade>
+            <div className="hobby-icons">
+              {data.hobbies.map((hobby, index) => (
+                    <img src={hobby.img} alt="icons"></img>
+              ))}
+            </div>
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>

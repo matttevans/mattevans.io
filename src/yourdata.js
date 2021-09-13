@@ -8,6 +8,10 @@ import codeIcon from "./images/code.svg"
 import databaseIcon from "./images/database.svg"
 import laravelIcon from "./images/laravel.svg"
 import uiuxIcon from "./images/uiux.svg"
+import camping from "./images/camping.svg"
+import weightlifting from "./images/weightlifting.svg"
+import golf from "./images/golf.svg"
+import videogames from "./images/videogames.svg"
 import headstrong from "./images/headstrong.png"
 import athleteacademy from "./images/athleteacademy.png"
 import seabreeze from "./images/seabreeze.png"
@@ -83,13 +87,30 @@ export default {
 
   // About Section --------------
   aboutParaOne:
-    "Hi my name is Matt Evans! I'm a freelance, full-stack web developer with experience in many areas and can offer you beautiful, scalable, and highly reliable websites.",
+      "Hi my name is Matt Evans! I'm a freelance, full-stack web developer with experience in many areas and can offer you beautiful, scalable, and highly reliable websites.",
   aboutParaTwo:
-    "I have extensive experience in developing Windows desktop software using Java and C#. I also have extensive experience in developing web apps using Laravel, React, Shopify, DropFunnels, and WordPress",
+      "I have extensive experience in developing Windows desktop software using Java and C#. I also have extensive experience in developing web apps using Laravel, React, Shopify, DropFunnels, and WordPress",
   aboutParaThree:
-    "I am deeply familiar with SEO, Jira, Confluence, CI/CD, Git, MySQL, Cloudflare, and Unix-based operating systems.",
+      "I am deeply familiar with SEO, Jira, Confluence, CI/CD, Git, MySQL, Cloudflare, and Windows and Unix-based operating systems.",
+  aboutParaFour:
+      "I specialize in the fitness industry and am an expert at automation using Python and Zapier with deep knowledge of the Exercise.com system.",
   aboutImage: matt,
 
+  hobbies: [
+    // Add Or Remove The Link Accordingly
+    {
+      img: golf,
+    },
+    {
+      img: weightlifting,
+    },
+    {
+      img: camping,
+    },
+    {
+      img: videogames,
+    },
+  ],
   //   End About Section ---------------------
 
   // Skills Section ---------------
