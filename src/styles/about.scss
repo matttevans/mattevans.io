@@ -13,6 +13,7 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+
   .content {
     width: 50%;
     @include media(">=phone", "<lgphone") {
@@ -32,12 +33,14 @@
         text-align: center;
       }
     }
+
     p {
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
     }
   }
+
   .image-wrapper {
     width: 50%;
     display: flex;
@@ -54,8 +57,10 @@
       width: 100%;
     }
   }
+
   .hobby-icons {
     margin-top: 20px;
+
     img {
       height: 2rem;
       margin: 10px;

@@ -11,8 +11,12 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1 className="title-front">Some of my</h1>
-            <span>Work</span>
+            <div className="heading-front">
+              <h1>Some of my</h1>
+            </div>
+            <div className="heading-back">
+              <h1>Work</h1>
+            </div>
           </Fade>
 
           <div className="grid">
@@ -28,11 +32,7 @@ const Work = () => {
               ))}
             </Fade>
           </div>
-          <div class="">
-
-          </div>
           <div className="grid">
-
           </div>
         </div>
       </div>
