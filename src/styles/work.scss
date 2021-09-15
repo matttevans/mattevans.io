@@ -1,6 +1,6 @@
 .work-wrapper {
 
-  background-color: #00025a;
+  background-color: #06004d;
 
   height: 50vw;
   padding-bottom: 35vh;
@@ -11,13 +11,15 @@
   flex-direction: column;
   align-items: center;
 
-  h1 {
+  .title-front {
+    background-color: white;
+    font-size: 3rem;
+  }
+  .title-back{
     background: linear-gradient(90deg, #00f9ff, #c900ff);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
     font-size: 3rem;
-    line-height: 20px;
   }
   .grid {
     display: grid;

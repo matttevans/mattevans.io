@@ -1,6 +1,7 @@
 import React from "react"
 import Card from "./atoms/Card"
 import Fade from "react-reveal/Fade"
+import { gsap } from "gsap";
 
 import data from "../yourdata"
 
@@ -10,7 +11,8 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Work</h1>
+            <h1 className="title-front">Some of my</h1>
+            <h1 className="title-back">Work</h1>
           </Fade>
 
           <div className="grid">
@@ -25,6 +27,12 @@ const Work = () => {
                 ></Card>
               ))}
             </Fade>
+          </div>
+          <div class="">
+
+          </div>
+          <div className="grid">
+
           </div>
         </div>
       </div>
