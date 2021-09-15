@@ -1,22 +1,21 @@
 .work-wrapper {
 
-  background-image: linear-gradient(
-                  135deg,
-                  lightskyblue 0%,
-                  lightskyblue 100%
-  );
+  background-color: #00025a;
 
-  height: 100%;
-  border-top: 0px;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+  height: 50vw;
   padding-bottom: 35vh;
 
-  width: 100%;
+  width: 100vw;
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+
   h1 {
+    background: linear-gradient(90deg, #00f9ff, #c900ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     font-size: 3rem;
     line-height: 20px;
   }
