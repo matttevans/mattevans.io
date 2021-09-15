@@ -8,13 +8,19 @@ import databaseIcon from "./images/database.svg"
 import laravelIcon from "./images/laravel.svg"
 import uiuxIcon from "./images/uiux.svg"
 import awsIcon from "./images/aws.svg"
+
+// Hobby icons
 import camping from "./images/camping.svg"
 import weightlifting from "./images/weightlifting.svg"
 import golf from "./images/golf.svg"
 import videogames from "./images/videogames.svg"
+
+// Work icons
 import headstrong from "./images/headstrong.png"
 import athleteacademy from "./images/athleteacademy.png"
 import seabreeze from "./images/seabreeze.png"
+
+// Me
 import matt from "./images/matt.png"
 
 // Social Icon
