@@ -7,6 +7,7 @@ import codeIcon from "./images/code.svg"
 import databaseIcon from "./images/database.svg"
 import laravelIcon from "./images/laravel.svg"
 import uiuxIcon from "./images/uiux.svg"
+import awsIcon from "./images/aws.svg"
 import camping from "./images/camping.svg"
 import weightlifting from "./images/weightlifting.svg"
 import golf from "./images/golf.svg"
@@ -88,11 +89,11 @@ export default {
   aboutParaOne:
       "Hi my name is Matt Evans! I'm a freelance, full-stack web developer with experience in many areas and can offer you beautiful, scalable, and highly reliable websites.",
   aboutParaTwo:
-      "I have extensive experience in developing Windows desktop software using Java and C#. I also have extensive experience in developing web apps using Laravel, React, Shopify, DropFunnels, and WordPress",
+      "I have extensive experience in developing Windows desktop software using Java and C#. I also have extensive experience in developing web apps using Laravel, React, Shopify, DropFunnels, and WordPress.",
   aboutParaThree:
       "I am deeply familiar with SEO, Jira, Confluence, CI/CD, Git, MySQL, Cloudflare, and Windows and Unix-based operating systems.",
   aboutParaFour:
-      "I specialize in the fitness industry and am an expert at automation using Python and Zapier with deep knowledge of the Exercise.com system.",
+      "I specialize in the fitness industry and am an expert at automation using Python and Zapier with deep knowledge of the Exercise.com platform.",
   aboutImage: matt,
 
   hobbies: [
@@ -141,6 +142,11 @@ export default {
       img: laravelIcon,
       para:
           "Laravel",
+    },
+    {
+      img: awsIcon,
+      para:
+          "AWS",
     },
     {
       img: uiuxIcon,
