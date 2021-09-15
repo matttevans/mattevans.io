@@ -7,6 +7,7 @@ import codeIcon from "./images/code.svg"
 import databaseIcon from "./images/database.svg"
 import laravelIcon from "./images/laravel.svg"
 import uiuxIcon from "./images/uiux.svg"
+import awsIcon from "./images/aws.svg"
 import camping from "./images/camping.svg"
 import weightlifting from "./images/weightlifting.svg"
 import golf from "./images/golf.svg"
@@ -141,6 +142,11 @@ export default {
       img: laravelIcon,
       para:
           "Laravel",
+    },
+    {
+      img: awsIcon,
+      para:
+          "AWS",
     },
     {
       img: uiuxIcon,
