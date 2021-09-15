@@ -15,14 +15,17 @@
     h1 {
       color: white;
       font-size: 3rem;
+      margin-bottom: 0;
     }
   }
   .heading-back {
     h1 {
       background: linear-gradient(90deg, #00f9ff, #c900ff);
       -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 
       font-size: 3rem;
+      margin-top: 0;
     }
   }
   .grid {
