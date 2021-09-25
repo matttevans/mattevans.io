@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import Bounce from "react-reveal/Bounce"
 
 const About = () => {
   return (
@@ -28,7 +29,9 @@ const About = () => {
             </Fade>
             <div className="hobby-icons">
               {data.hobbies.map((hobby, index) => (
+                  <Bounce right>
                     <img src={hobby.img} alt="icons"></img>
+                  </Bounce>
               ))}
             </div>
           </div>
