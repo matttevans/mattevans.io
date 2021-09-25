@@ -24,9 +24,6 @@
   "devDependencies": {
     "prettier": "2.1.2"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "0BSD",
   "scripts": {
     "start": "react-scripts start",
@@ -36,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/matttevans/mattevans.io"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://mattevans.io"
   },
   "browserslist": {
     "production": [
