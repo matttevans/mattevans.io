@@ -12,13 +12,6 @@ import Footer from "../components/Footer"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
-/*
-const images = [
-    "../images/headstrong-screenshot.png",
-    "../images/athleteacademy-screenshot.png",
-    "../images/lngworldfleet-screenshot.png",
-    "../images/ionshare-screenshot.png",
-]*/
 const images = [
     data.headstrongImage,
     data.athleteacademyImage,
@@ -37,6 +30,7 @@ const IndexPage = () => (
     <Layout>
         <SEO title="Matt Evans"/>
         <Header></Header>
+        <About></About>
         <Work anchors={anchors} images={images}>
             <div className="work-text">
                 <p className="work-spacer-first"></p>
@@ -115,7 +109,6 @@ const IndexPage = () => (
                 <p></p>
             </div>
         </Work>
-        <About></About>
         <Skills></Skills>
         <Footer></Footer>
     </Layout>
