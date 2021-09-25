@@ -1,13 +1,7 @@
 .skills-container {
 
-  background-image: linear-gradient(
-                  135deg,
-                  lightskyblue 0%,
-                  lightskyblue 100%
-  );
   height: 100%;
   border-top: 15vh;
-  clip-path: polygon(0 0,250% 15%,150% 80%,0 90%);
   padding-top: 15vh;
   padding-bottom: 30vh;
 
@@ -16,9 +10,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  h1 {
-    font-size: 3rem;
-    line-height: 20px;
+  .heading-front {
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0;
+      margin-top: 5vh;
+    }
+  }
+
+  .heading-back {
+    h1 {
+      background: linear-gradient(90deg, #FFA500, #FF0000);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-size: 3rem;
+      margin-top: 0;
+      padding-bottom: 10vh;
+    }
   }
 
   .skills-grid {

@@ -6,6 +6,9 @@ import jsIcon from "./images/javascript.svg"
 import codeIcon from "./images/code.svg"
 import databaseIcon from "./images/database.svg"
 import laravelIcon from "./images/laravel.svg"
+import atlassianIcon from "./images/atlassian.png"
+import shopifyIcon from "./images/shopify.png"
+import wordpressIcon from "./images/wordpress.svg"
 import uiuxIcon from "./images/uiux.svg"
 import awsIcon from "./images/aws.svg"
 import camping from "./images/camping.svg"
@@ -128,47 +131,47 @@ export default {
     {
       img: htmlIcon,
       para:
-        "HTML 5",
+        "HTML, CSS, JS. Custom designed websites to fit your every need.",
     },
     {
-      img: cssIcon,
+      img: wordpressIcon,
       para:
-        "CSS",
+        "Proficient with WordPress. I can build you custom solutions or improve existing ones.",
     },
     {
-      img: jsIcon,
+      img: shopifyIcon,
       para:
-        "Javascript",
+        "Proficient with Shopify. Lets bring your next brick and mortar or online store to life.",
     },
     {
-      img: reactIcon,
+      img: atlassianIcon,
       para:
-        "ReactJS",
+        "Proficient with Jira and Confluence. I can improve your business structure, increase productivity, documentation, project management, issue tracking, and more.",
     },
     {
       img: laravelIcon,
       para:
-          "Laravel",
+          "Proficient with Laravel and Symfony PHP frameworks.",
     },
     {
       img: awsIcon,
       para:
-          "AWS",
+          "Deploy and manage your apps & data on various AWS services such as EC2, Lightsail, Amplify, and S3.",
     },
     {
       img: uiuxIcon,
       para:
-        "UI/UX",
+        "Create beautiful, user friendly interfaces.",
     },
     {
       img: codeIcon,
       para:
-        "Backend",
+        "Create powerful, feature-rich backends and functionality.",
     },
     {
       img: databaseIcon,
       para:
-          "Databases",
+          "Deploy and manage your databases on various services such as AWS RDS and Microsoft SQL Server.",
     },
   ],
 
