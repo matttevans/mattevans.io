@@ -12,8 +12,10 @@ import camping from "./images/camping.svg"
 import weightlifting from "./images/weightlifting.svg"
 import golf from "./images/golf.svg"
 import videogames from "./images/videogames.svg"
-import headstrong from "./images/headstrong.png"
-import athleteacademy from "./images/athleteacademy.png"
+import headstrong from "./images/headstrong-screenshot.png"
+import athleteacademy from "./images/athleteacademy-screenshot.png"
+import lngworldfleet from "./images/lngworldfleet-screenshot.png"
+import ionshare from "./images/ionshare-screenshot.png"
 import seabreeze from "./images/seabreeze.png"
 import matt from "./images/matt.png"
 
@@ -43,6 +45,11 @@ export default {
   // End Header Details -----------------------
 
   // Work Section ------------------------
+  headstrongImage: headstrong,
+  athleteacademyImage: athleteacademy,
+  lngworldfleetImage: lngworldfleet,
+  ionshareImage: ionshare,
+
   projects: [
     {
       title: "Headstrong Fit", //Project Title - Add Your Project Title Here
