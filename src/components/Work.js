@@ -38,13 +38,13 @@ const Work = ({images, anchors, children}) => {
                             <h1>Work</h1>
                         </div>
                     </Fade>
-                    <div className="parallax-content content">
+                    <div className="content">
                         <div style={{position: "sticky", left: "50%", top: "10vh"}}>
                             <div className="image-wrapper">
                                 <img src={data.headstrongImage}/>
                             </div>
                         </div>
-                        <div style={{maxWidth: "780px"}}> {children} </div>
+                        <div className="parallax-text" style={{maxWidth: "780px"}}> {children} </div>
                     </div>
                 </div>
             </div>

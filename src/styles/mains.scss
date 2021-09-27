@@ -58,9 +58,10 @@ body {
   padding-bottom: 200px;
 }
 .work-spacer-first {
-  padding-top: 0px;
+  padding-top: 0;
 }
 .client {
   padding-top: 30vh;
   padding-bottom: 30vh;
+  z-index: -1;
 }

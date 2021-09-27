@@ -11,13 +11,13 @@
 
   justify-content: space-between;
   @include media(">=phone", "<lgphone") {
-    flex-direction: column-reverse;
+    //flex-direction: column-reverse;
   }
   @include media(">=lgphone", "<tablet") {
-    flex-direction: column-reverse;
+    //flex-direction: column-reverse;
   }
   @include media(">=tablet", "<desktop") {
-    flex-direction: column-reverse;
+    //flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -27,8 +27,15 @@
       font-size: 3rem;
       margin-bottom: 0;
       margin-top: 5vh;
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.5rem;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.5rem;
+        line-height: 10px;
+      }
       @include media(">=tablet", "<desktop") {
-        text-align: center;
+        font-size: 2.5rem;
       }
     }
   }
@@ -41,8 +48,15 @@
 
       font-size: 3rem;
       margin-top: 0;
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.5rem;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.5rem;
+        line-height: 10px;
+      }
       @include media(">=tablet", "<desktop") {
-        text-align: center;
+        font-size: 2.5rem;
       }
       padding-bottom: 10vh;
     }
@@ -78,9 +92,11 @@
       font-weight: bold;
       margin-left: 10vw;
     }
+
     ul {
       margin-left: 10vw;
     }
+
     .link {
       text-align: center;
       color: blue;
@@ -89,31 +105,38 @@
   }
 
   .image-wrapper {
-    //display: flex;
-    /*
-    align-items: center;
-    justify-content: center;
-    height: 75vh;
-    */
-    overflow: auto;
-    position: absolute;
-    left: 50%;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+
     //background: radial-gradient(at right 80%, #00f9ff, #080c24);
     img {
       object-fit: cover;
       width: 50vw;
-    }
+      overflow: auto;
+      position: absolute;
+      left: 50%;
+      padding-top: 10vh;
+      padding-bottom: 10vh;
 
-    @include media(">=phone", "<lgphone") {
-      width: 100%;
-    }
-    @include media(">=lgphone", "<tablet") {
-      width: 100%;
-    }
-    @include media(">=tablet", "<desktop") {
-      width: 100%;
+      @include media(">=phone", "<lgphone") {
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        padding-top: 0;
+        z-index: 9999;
+      }
+      @include media(">=lgphone", "<tablet") {
+        width: 100vw;
+        position: relative;
+        left: 0;
+        margin: auto;
+        z-index: 9999;
+      }
+      @include media(">=tablet", "<desktop") {
+        width: 100vw;
+        position: relative;
+        left: 0;
+        margin: auto;
+        z-index: 9999;
+      }
     }
   }
 
@@ -125,7 +148,9 @@
       margin: 10px;
     }
   }
-
+  .parallax-text {
+    word-break:keep-all;
+  }
   .parallax-container {
     position: relative;
     padding-bottom: 15rem;
@@ -146,6 +171,7 @@
     top: 0;
     left: 0;
   }
+
   .text-center {
     text-align: center;
   }
