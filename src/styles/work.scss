@@ -1,6 +1,5 @@
 .work-wrapper {
   background-color: #080c24;
-
   padding-bottom: 75vh;
 
   width: 100vw;
@@ -103,7 +102,11 @@
     }
     color: white;
   }
+  .gradient {
+    z-index: 9999;
+    background: radial-gradient(at right 80%, #00f9ff, #080c24);
 
+  }
   .image-wrapper {
 
     overflow: auto;
@@ -112,7 +115,6 @@
     padding-top: 10vh;
     padding-bottom: 10vh;
 
-    //background: radial-gradient(at right 80%, #00f9ff, #080c24);
     img {
 
       object-fit: cover;
