@@ -106,15 +106,17 @@
 
   .image-wrapper {
 
+    overflow: auto;
+    position: absolute;
+    left: 50%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
     //background: radial-gradient(at right 80%, #00f9ff, #080c24);
     img {
+
       object-fit: cover;
       width: 50vw;
-      overflow: auto;
-      position: absolute;
-      left: 50%;
-      padding-top: 10vh;
-      padding-bottom: 10vh;
 
       @include media(">=phone", "<lgphone") {
         width: 100vw;

@@ -38,7 +38,7 @@ const Work = ({images, anchors, children}) => {
                             <h1>Work</h1>
                         </div>
                     </Fade>
-                    <div className="content">
+                    <div className="parallax-content content">
                         <div style={{position: "sticky", left: "50%", top: "10vh"}}>
                             <div className="image-wrapper">
                                 <img src={data.headstrongImage}/>
