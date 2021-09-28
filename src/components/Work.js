@@ -27,7 +27,7 @@ const Work = ({images, anchors, children}) => {
     }, [images, anchors]);
 
     return (
-        <div className="section gradient" id="about">
+        <div className="gradient" id="about">
             <div className="container">
                 <div className="parallax-container work-wrapper" id="parallax" ref={ref}>
                     <Fade bottom>
