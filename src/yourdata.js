@@ -11,15 +11,22 @@ import shopifyIcon from "./images/shopify.png"
 import wordpressIcon from "./images/wordpress.svg"
 import uiuxIcon from "./images/uiux.svg"
 import awsIcon from "./images/aws.svg"
+
+// Hobbies icons
 import camping from "./images/camping.svg"
 import weightlifting from "./images/weightlifting.svg"
 import golf from "./images/golf.svg"
 import videogames from "./images/videogames.svg"
+
+// Work icons
 import headstrong from "./images/headstrong-screenshot.png"
 import athleteacademy from "./images/athleteacademy-screenshot.png"
 import lngworldfleet from "./images/lngworldfleet-screenshot.png"
 import ionshare from "./images/ionshare-screenshot.png"
 import seabreeze from "./images/seabreeze.png"
+import gsap from "./images/gsap.png"
+
+// Me
 import matt from "./images/matt.png"
 
 // Social Icon
@@ -52,6 +59,7 @@ export default {
   athleteacademyImage: athleteacademy,
   lngworldfleetImage: lngworldfleet,
   ionshareImage: ionshare,
+  gsapImage: gsap,
 
   projects: [
     {
@@ -201,5 +209,3 @@ export default {
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
