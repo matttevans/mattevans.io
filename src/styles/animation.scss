@@ -1,0 +1,192 @@
+.animation-wrapper {
+  background-color: #080c24;
+
+  padding-bottom: 75vh;
+
+  width: 100vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-between;
+  @include media(">=phone", "<lgphone") {
+    //flex-direction: column-reverse;
+  }
+  @include media(">=lgphone", "<tablet") {
+    //flex-direction: column-reverse;
+  }
+  @include media(">=tablet", "<desktop") {
+    //flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .heading-front {
+    h1 {
+      color: white;
+      font-size: 3rem;
+      margin-bottom: 0;
+      margin-top: 5vh;
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.5rem;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.5rem;
+        line-height: 10px;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .heading-back {
+    h1 {
+      background: linear-gradient(90deg, #8A2BE2, #6495ED);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-size: 3rem;
+      margin-top: 0;
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.5rem;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.5rem;
+        line-height: 10px;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 2.5rem;
+      }
+      padding-bottom: 10vh;
+    }
+  }
+
+  .content {
+    width: 100%;
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+
+    p {
+      @include media(">=tablet", "<desktop") {
+        text-align: center;
+      }
+    }
+  }
+
+  .work-text {
+    h2 {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    p {
+      color: lightgray;
+      font-weight: bold;
+      margin-left: 10vw;
+    }
+
+    ul {
+      margin-left: 10vw;
+    }
+
+    .link {
+      text-align: center;
+      color: blue;
+    }
+    color: white;
+  }
+
+  .image-wrapper {
+
+    overflow: auto;
+    position: absolute;
+    left: 50%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    //background: radial-gradient(at right 80%, #00f9ff, #080c24);
+    img {
+
+      object-fit: cover;
+      width: 50vw;
+
+      @include media(">=phone", "<lgphone") {
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        padding-top: 0;
+        z-index: 9999;
+      }
+      @include media(">=lgphone", "<tablet") {
+        width: 100vw;
+        position: relative;
+        left: 0;
+        margin: auto;
+        z-index: 9999;
+      }
+      @include media(">=tablet", "<desktop") {
+        width: 100vw;
+        position: relative;
+        left: 0;
+        margin: auto;
+        z-index: 9999;
+      }
+    }
+  }
+
+  .hobby-icons {
+    margin-top: 20px;
+
+    img {
+      height: 2rem;
+      margin: 10px;
+    }
+  }
+  .parallax-container {
+    position: relative;
+    padding-bottom: 15rem;
+  }
+
+  .parallax-background-relative {
+    border: 1px solid red;
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  .parallax-background-fixed {
+    position: fixed;
+    border: 1px solid red;
+    border-radius: 4px;
+    width: 100%;
+    height: 95vh;
+    top: 0;
+    left: 0;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  .animation-content {
+    h2 {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-top: 25vh;
+      margin: 5vw;
+    }
+  }
+  .parallax-text {
+    word-break:keep-all;
+    color: white;
+  }
+}
