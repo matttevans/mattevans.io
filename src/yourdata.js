@@ -20,6 +20,8 @@ import weightlifting from "./images/weightlifting.svg"
 import golf from "./images/golf.svg"
 import videogames from "./images/videogames.svg"
 
+// Misc screenshots
+
 // Work icons
 import headstrong from "./images/headstrong-screenshot.png"
 import athleteacademy from "./images/athleteacademy-screenshot.png"
@@ -27,6 +29,7 @@ import lngworldfleet from "./images/lngworldfleet-screenshot.png"
 import ionshare from "./images/ionshare-screenshot.png"
 import seabreeze from "./images/seabreeze.png"
 import gsap from "./images/gsap.png"
+import csharp from "./images/csharp-code.png"
 
 // Me
 import matt from "./images/matt.png"
@@ -60,6 +63,7 @@ export default {
   lngworldfleetImage: lngworldfleet,
   ionshareImage: ionshare,
   gsapImage: gsap,
+  csharpImage: csharp,
 
   projects: [
     {

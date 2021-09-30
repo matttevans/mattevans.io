@@ -11,30 +11,45 @@ const Animation = () => {
     return (
         <div className="animation-wrapper" id="animation">
             <div className="container">
-                <Slide right>
-                    <div className="heading-front">
-                        <h1>Beautiful</h1>
-                    </div>
-                </Slide>
-                <Slide left>
-                    <div className="heading-back">
-                        <h1>animations</h1>
-                    </div>
-                </Slide>
-
                 <div className="animation-section">
-                    <div className="content">
-                        <div className="gsap-content">
-                            <Roll left>
-                                <h2>
-                                    {data.animationParaOne}
-                                </h2>
-                            </Roll>
-                        </div>
+                    <div className="animation-content">
+                        <Slide left>
+                            <div className="animation-heading">
+                                <h1>
+                                    Beautiful animations
+                                </h1>
+                            </div>
+                        </Slide>
+                        <Roll left>
+                            <h2>
+                                {data.animationParaOne}
+                            </h2>
+                        </Roll>
                     </div>
                     <Zoom right>
                         <div className="image-wrapper image-gradient">
                             <img src={data.gsapImage} alt="animation"></img>
+                        </div>
+                    </Zoom>
+                </div>
+                <div className="animation-section">
+                    <div className="animation-content">
+                        <Slide left>
+                            <div className="animation-heading">
+                                <h1>
+                                    Code
+                                </h1>
+                            </div>
+                        </Slide>
+                        <Roll left>
+                            <h2>
+                                Writing clean, readable, scalable code
+                            </h2>
+                        </Roll>
+                    </div>
+                    <Zoom right>
+                        <div className="image-wrapper image-gradient">
+                            <img src={data.csharpImage} alt="animation"></img>
                         </div>
                     </Zoom>
                 </div>
