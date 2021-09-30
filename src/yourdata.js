@@ -133,12 +133,12 @@ export default {
     {
       img: wordpressIcon,
       para:
-        "Proficient with WordPress. I can build you custom solutions or improve existing ones.",
+        "I can build you custom solutions or improve existing solutions on WordPress.",
     },
     {
       img: shopifyIcon,
       para:
-        "Proficient with Shopify. Lets bring your next brick and mortar or online store to life.",
+        "Lets bring your next brick and mortar or online store to life on Shopify.",
     },
     {
       img: atlassianIcon,
