@@ -9,37 +9,38 @@ import Roll from "react-reveal/Roll";
 
 const Animation = () => {
     return (
-        <div className="section">
+        <div className="animation-wrapper" id="animation">
             <div className="container">
-                <div className="animation-wrapper">
-                    <Slide right>
-                        <div className="heading-front">
-                            <h1>Beautiful</h1>
-                        </div>
-                    </Slide>
-                    <Slide left>
-                        <div className="heading-back">
-                            <h1>animations</h1>
-                        </div>
-                    </Slide>
-                    <div className="animation-content content">
-                        <div style={{position: "sticky", left: "50%", top: "10vh"}}>
-                            <Zoom right>
-                                <div className="image-wrapper">
-                                    <img src={data.gsapImage}/>
-                                </div>
-                            </Zoom>
-                        </div>
-                        <Roll bottom>
-                            <div className="parallax-text" style={{maxWidth: "780px"}}>
-                                <h2>Creating elegant, smooth "scrollytelling" with GSAP ScrollTrigger and React Reveal</h2>
-                            </div>
-                        </Roll>
+                <Slide right>
+                    <div className="heading-front">
+                        <h1>Beautiful</h1>
                     </div>
+                </Slide>
+                <Slide left>
+                    <div className="heading-back">
+                        <h1>animations</h1>
+                    </div>
+                </Slide>
+
+                <div className="animation-section">
+                    <div className="content">
+                        <div className="gsap-content">
+                            <Roll left>
+                                <h2>
+                                    {data.animationParaOne}
+                                </h2>
+                            </Roll>
+                        </div>
+                    </div>
+                    <Zoom right>
+                        <div className="image-wrapper image-gradient">
+                            <img src={data.gsapImage} alt="animation"></img>
+                        </div>
+                    </Zoom>
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
 export default Animation;

@@ -102,7 +102,10 @@ export default {
   ],
 
   // End Work Section -----------------------
-
+  // Animation section -------------
+  animationParaOne:
+  "Creating elegant, smooth \"scrollytelling\" using GSAP ScrollTrigger and React Reveal.",
+  // End animation section
   // About Section --------------
   aboutParaOne:
       "Hi my name is Matt Evans! I'm a freelance, full-stack web developer with experience in many areas and can offer you beautiful, scalable, and highly reliable websites.",
