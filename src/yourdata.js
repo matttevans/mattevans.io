@@ -11,6 +11,8 @@ import shopifyIcon from "./images/shopify.png"
 import wordpressIcon from "./images/wordpress.svg"
 import uiuxIcon from "./images/uiux.svg"
 import awsIcon from "./images/aws.svg"
+import csharpIcon from "./images/c-sharp.svg"
+import placeholderIcon from "./images/placeholder.svg"
 
 // Hobbies icons
 import camping from "./images/camping.svg"
@@ -168,7 +170,22 @@ export default {
     {
       img: databaseIcon,
       para:
-          "Deploy and manage your databases on various services such as AWS RDS and Microsoft SQL Server.",
+          "Deploy and manage your databases on various services such as AWS RDS and Microsoft SQL Server. Skilled with MySQL and Laravel Eloquent.",
+    },
+    {
+      img: placeholderIcon,
+      para:
+          "",
+    },
+    {
+      img: csharpIcon,
+      para:
+          "Strong OOP fundamentals. Experience creating Windows desktop apps using C# WPF & MVVM Framework.",
+    },
+    {
+      img: placeholderIcon,
+      para:
+          "",
     },
   ],
 
