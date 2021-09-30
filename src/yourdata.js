@@ -34,8 +34,6 @@ import githubIcon from "./images/github.svg"
 import linkedinIcon from "./images/linkedin.svg"
 
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
 
   //   Header Details ---------------------
   name: "Matt Evans",
@@ -89,16 +87,6 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "httpa://athleteacademy.us/",
     },
-
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
   // End Work Section -----------------------
@@ -110,7 +98,7 @@ export default {
   aboutParaOne:
       "Hi my name is Matt Evans! I'm a freelance, full-stack web developer with experience in many areas and can offer you beautiful, scalable, and highly reliable websites.",
   aboutParaTwo:
-      "I have extensive experience in developing Windows desktop software using Java and C#. I also have extensive experience in developing web apps using Laravel, React, Shopify, DropFunnels, and WordPress.",
+      "I have extensive experience in developing Windows desktop software using Java and C#. I also have experience in developing web apps using Laravel, React, Shopify, DropFunnels, and WordPress.",
   aboutParaThree:
       "I am deeply familiar with SEO, Jira, Confluence, CI/CD, Git, MySQL, Cloudflare, and Windows and Unix-based operating systems.",
   aboutParaFour:
@@ -136,8 +124,6 @@ export default {
 
   // Skills Section ---------------
 
-  //   Import Icons from the top and link it here
-
   skills: [
     {
       img: htmlIcon,
@@ -162,7 +148,7 @@ export default {
     {
       img: laravelIcon,
       para:
-          "Proficient with Laravel and Symfony PHP frameworks.",
+          "Proficient with Laravel PHP framework.",
     },
     {
       img: awsIcon,
@@ -172,7 +158,7 @@ export default {
     {
       img: uiuxIcon,
       para:
-        "Create beautiful, user friendly interfaces.",
+        "Create beautiful, user-friendly interfaces.",
     },
     {
       img: codeIcon,
