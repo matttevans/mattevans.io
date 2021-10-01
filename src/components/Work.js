@@ -40,7 +40,7 @@ const Work = ({images, anchors, children}) => {
                     </Fade>
                     <div className="parallax-content content">
                         <div style={{position: "sticky", left: "50%", top: "10vh"}}>
-                            <div className="image-wrapper">
+                            <div className="image-wrapper image-gradient">
                                 <img src={data.headstrongImage}/>
                             </div>
                         </div>

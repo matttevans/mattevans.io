@@ -105,44 +105,79 @@
 
     color: white;
   }
+  .image-gradient::before {
+    content: '';
+    width: 50vw;
+    top: 0;
+    right: 0;
+    height: 100%;
+    -webkit-box-shadow: 180px -100px 200px 130px #1affdb,100px 0px 40px 2px #1affdb;
+    box-shadow: 180px -100px 200px 130px #1affdb,100px 0px 40px 2px #1affdb;
+    z-index: -1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 
+  }
   .image-wrapper {
 
-    overflow: auto;
+    //overflow: auto;
     position: absolute;
     left: 50%;
     padding-top: 10vh;
     padding-bottom: 10vh;
 
-    img {
+    background: transparent;
+    width: 50%;
+    max-width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-      object-fit: cover;
-      width: 50vw;
+  }
+  img {
 
-      @include media(">=phone", "<lgphone") {
-        width: 100vw;
-        position: absolute;
-        left: 0;
-        padding-top: 0;
-        z-index: 9999;
-      }
-      @include media(">=lgphone", "<tablet") {
-        width: 100vw;
-        position: relative;
-        left: 0;
-        margin: auto;
-        z-index: 9999;
-      }
-      @include media(">=tablet", "<desktop") {
-        width: 100vw;
-        position: relative;
-        left: 0;
-        margin: auto;
-        z-index: 9999;
-      }
+    object-fit: cover;
+    width: 50vw;
+
+    max-width: 50vw;
+    font-size: 50px;
+    height: auto;
+    margin: 0;
+    position: relative;
+    z-index: 3;
+    background-color: #060C1F;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    @include media(">=phone", "<lgphone") {
+      width: 100vw;
+      position: absolute;
+      left: 0;
+      padding-top: 0;
+      z-index: 9999;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100vw;
+      position: relative;
+      left: 0;
+      margin: auto;
+      z-index: 9999;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100vw;
+      position: relative;
+      left: 0;
+      margin: auto;
+      z-index: 9999;
     }
   }
-
   .hobby-icons {
     margin-top: 20px;
 
