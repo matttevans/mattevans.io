@@ -16,7 +16,7 @@ const sections = [
         image: data.gsapImage,
     },
     {
-        title: 'Code',
+        title: 'Beautiful code',
         subtitle: 'Writing clean, readable, scalable code',
         image: data.csharpImage,
     }
